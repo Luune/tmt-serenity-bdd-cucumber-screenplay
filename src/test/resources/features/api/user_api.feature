@@ -1,3 +1,4 @@
+@api @example
 Feature: User API Tests
 
   Scenario: Get user by ID
