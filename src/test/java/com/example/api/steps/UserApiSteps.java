@@ -3,8 +3,10 @@ package com.example.api.steps;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.cucumber.java.en.And;
 import net.serenitybdd.rest.SerenityRest;
 import net.serenitybdd.annotations.Steps;
+import com.example.api.actions.UserApiActions;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
